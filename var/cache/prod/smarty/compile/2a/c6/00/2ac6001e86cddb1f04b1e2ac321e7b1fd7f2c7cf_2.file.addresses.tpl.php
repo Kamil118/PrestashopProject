@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.39, created on 2021-10-31 16:37:47
+=======
+/* Smarty version 3.1.39, created on 2021-10-21 12:01:35
+>>>>>>> origin/main
   from '/var/www/html/themes/classic/templates/checkout/_partials/steps/addresses.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
+<<<<<<< HEAD
   'unifunc' => 'content_617eb84b7136d5_57050562',
+=======
+  'unifunc' => 'content_6171488f1d7057_15176861',
+>>>>>>> origin/main
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ac6001e86cddb1f04b1e2ac321e7b1fd7f2c7cf' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/steps/addresses.tpl',
+<<<<<<< HEAD
       1 => 1633363913,
+=======
+      1 => 1634813142,
+>>>>>>> origin/main
       2 => 'file',
     ),
   ),
@@ -21,25 +33,41 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/address-selector-block.tpl' => 2,
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_617eb84b7136d5_57050562 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_6171488f1d7057_15176861 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/main
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
+<<<<<<< HEAD
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1094613030617eb84b6efaf5_94729983', 'step_content');
+=======
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1780455466171488f1ba093_94057999', 'step_content');
+>>>>>>> origin/main
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'checkout/_partials/steps/checkout-step.tpl');
 }
 /* {block 'step_content'} */
+<<<<<<< HEAD
 class Block_1094613030617eb84b6efaf5_94729983 extends Smarty_Internal_Block
+=======
+class Block_1780455466171488f1ba093_94057999 extends Smarty_Internal_Block
+>>>>>>> origin/main
 {
 public $subBlocks = array (
   'step_content' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_1094613030617eb84b6efaf5_94729983',
+=======
+    0 => 'Block_1780455466171488f1ba093_94057999',
+>>>>>>> origin/main
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

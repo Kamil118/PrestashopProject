@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.39, created on 2021-10-31 16:37:00
+=======
+/* Smarty version 3.1.39, created on 2021-10-21 11:59:03
+>>>>>>> origin/main
   from 'module:pssharebuttonsviewstempla' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
+<<<<<<< HEAD
   'unifunc' => 'content_617eb81cf33062_14304223',
+=======
+  'unifunc' => 'content_617147f7b973b3_40301019',
+>>>>>>> origin/main
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ce908e3af500ef88d0be39d6badc82307b6995cd' => 
     array (
       0 => 'module:pssharebuttonsviewstempla',
+<<<<<<< HEAD
       1 => 1633363913,
+=======
+      1 => 1634813142,
+>>>>>>> origin/main
       2 => 'module',
     ),
   ),
@@ -20,23 +32,39 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_617eb81cf33062_14304223 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_617147f7b973b3_40301019 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/main
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php 
+<<<<<<< HEAD
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_121151984617eb81cf2d804_22740139', 'social_sharing');
+=======
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_880676262617147f7b93243_28513071', 'social_sharing');
+>>>>>>> origin/main
 ?>
 
 <?php }
 /* {block 'social_sharing'} */
+<<<<<<< HEAD
 class Block_121151984617eb81cf2d804_22740139 extends Smarty_Internal_Block
+=======
+class Block_880676262617147f7b93243_28513071 extends Smarty_Internal_Block
+>>>>>>> origin/main
 {
 public $subBlocks = array (
   'social_sharing' => 
   array (
+<<<<<<< HEAD
     0 => 'Block_121151984617eb81cf2d804_22740139',
+=======
+    0 => 'Block_880676262617147f7b93243_28513071',
+>>>>>>> origin/main
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

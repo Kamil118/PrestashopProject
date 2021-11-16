@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
 /* Smarty version 3.1.39, created on 2021-10-31 16:37:01
+=======
+/* Smarty version 3.1.39, created on 2021-10-21 11:59:03
+>>>>>>> origin/main
   from 'module:productcommentsviewstempl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
+<<<<<<< HEAD
   'unifunc' => 'content_617eb81d5624e0_07842899',
+=======
+  'unifunc' => 'content_617147f7cdfe18_99408643',
+>>>>>>> origin/main
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '256c91bbbc34315fb93df279a63aced553c714da' => 
     array (
       0 => 'module:productcommentsviewstempl',
+<<<<<<< HEAD
       1 => 1623311149,
+=======
+      1 => 1634813141,
+>>>>>>> origin/main
       2 => 'module',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
 function content_617eb81d5624e0_07842899 (Smarty_Internal_Template $_smarty_tpl) {
+=======
+function content_617147f7cdfe18_99408643 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/main
 ?>
 <div id="empty-product-comment" class="product-comment-list-item">
   <?php if ($_smarty_tpl->tpl_vars['post_allowed']->value) {?>

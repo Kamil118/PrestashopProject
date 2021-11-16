@@ -199,4 +199,10 @@
   199 => 'PrestaShop\\Module\\Mbo\\Controller\\Admin\\ModuleRecommendedController',
   200 => 'PrestaShop\\Module\\Mbo\\Controller\\Admin\\ModuleSelectionController',
   201 => 'PrestaShop\\Module\\Mbo\\Controller\\Admin\\ThemeCatalogController',
+<<<<<<< HEAD
+=======
+  202 => 'PrestaShop\\Module\\PrestashopCheckout\\Controller\\AbstractFrontController',
+  203 => 'PrestaShop\\Module\\PrestashopCheckout\\Entity\\PaypalAccount',
+  204 => 'PrestaShop\\Module\\PrestashopCheckout\\Entity\\PsAccount',
+>>>>>>> origin/main
 );
