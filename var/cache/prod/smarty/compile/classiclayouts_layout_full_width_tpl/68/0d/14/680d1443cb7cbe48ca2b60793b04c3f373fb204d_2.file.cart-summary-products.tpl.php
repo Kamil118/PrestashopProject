@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
+/* Smarty version 3.1.39, created on 2021-10-31 16:37:19
+=======
 /* Smarty version 3.1.39, created on 2021-10-21 11:59:10
+>>>>>>> origin/main
   from '/var/www/html/themes/classic/templates/checkout/_partials/cart-summary-products.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
+<<<<<<< HEAD
+  'unifunc' => 'content_617eb82fdd18f0_33617171',
+=======
   'unifunc' => 'content_617147fe5df587_60660770',
+>>>>>>> origin/main
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '680d1443cb7cbe48ca2b60793b04c3f373fb204d' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/cart-summary-products.tpl',
+<<<<<<< HEAD
+      1 => 1633363913,
+=======
       1 => 1634813142,
+>>>>>>> origin/main
       2 => 'file',
     ),
   ),
@@ -21,7 +33,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:checkout/_partials/cart-summary-product-line.tpl' => 1,
   ),
 ),false)) {
+<<<<<<< HEAD
+function content_617eb82fdd18f0_33617171 (Smarty_Internal_Template $_smarty_tpl) {
+=======
 function content_617147fe5df587_60660770 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/main
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -39,18 +55,30 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
   </p>
 
   <?php 
+<<<<<<< HEAD
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1053121733617eb82fdcef13_42982311', 'cart_summary_product_list');
+=======
 $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_206761269617147fe5dd674_90902873', 'cart_summary_product_list');
+>>>>>>> origin/main
 ?>
 
 </div>
 <?php }
 /* {block 'cart_summary_product_list'} */
+<<<<<<< HEAD
+class Block_1053121733617eb82fdcef13_42982311 extends Smarty_Internal_Block
+=======
 class Block_206761269617147fe5dd674_90902873 extends Smarty_Internal_Block
+>>>>>>> origin/main
 {
 public $subBlocks = array (
   'cart_summary_product_list' => 
   array (
+<<<<<<< HEAD
+    0 => 'Block_1053121733617eb82fdcef13_42982311',
+=======
     0 => 'Block_206761269617147fe5dd674_90902873',
+>>>>>>> origin/main
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

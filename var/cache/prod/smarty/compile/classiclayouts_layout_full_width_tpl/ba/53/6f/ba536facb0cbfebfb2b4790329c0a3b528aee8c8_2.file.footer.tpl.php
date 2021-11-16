@@ -1,18 +1,30 @@
 <?php
+<<<<<<< HEAD
+/* Smarty version 3.1.39, created on 2021-10-31 16:37:19
+=======
 /* Smarty version 3.1.39, created on 2021-10-21 11:59:10
+>>>>>>> origin/main
   from '/var/www/html/themes/classic/templates/checkout/_partials/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
+<<<<<<< HEAD
+  'unifunc' => 'content_617eb82fea2971_50311451',
+=======
   'unifunc' => 'content_617147fe607255_66779378',
+>>>>>>> origin/main
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ba536facb0cbfebfb2b4790329c0a3b528aee8c8' => 
     array (
       0 => '/var/www/html/themes/classic/templates/checkout/_partials/footer.tpl',
+<<<<<<< HEAD
+      1 => 1633363913,
+=======
       1 => 1634813142,
+>>>>>>> origin/main
       2 => 'file',
     ),
   ),
@@ -20,7 +32,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
+<<<<<<< HEAD
+function content_617eb82fea2971_50311451 (Smarty_Internal_Template $_smarty_tpl) {
+=======
 function content_617147fe607255_66779378 (Smarty_Internal_Template $_smarty_tpl) {
+>>>>>>> origin/main
 ?><div class="modal fade js-checkout-modal" id="modal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

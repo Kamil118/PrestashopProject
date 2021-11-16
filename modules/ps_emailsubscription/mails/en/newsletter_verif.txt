@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+
+[{shop_url}] 
+
+Hi, 
+
+Thank you for subscribing to our newsletter, please confirm your
+request by clicking the link below :
+
+{verif_url} [{verif_url}] 		 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+
+=======
 {shop_url}
 
 Hi,
@@ -8,3 +23,4 @@ Thank you for subscribing to our newsletter. Please click on the following link 
 [{shop_name}]({shop_url})
 
 Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail&utm_campaign=footer_1-7)
+>>>>>>> origin/main

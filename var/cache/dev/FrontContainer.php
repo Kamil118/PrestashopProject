@@ -206,6 +206,8 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'prestashop.translation.translator_language_loader' => 'getPrestashop_Translation_TranslatorLanguageLoaderService',
             'product_comment_criterion_repository' => 'getProductCommentCriterionRepositoryService',
             'product_comment_repository' => 'getProductCommentRepositoryService',
+<<<<<<< HEAD
+=======
             'ps_checkout.adapter.language' => 'getPsCheckout_Adapter_LanguageService',
             'ps_checkout.api.firebase.auth' => 'getPsCheckout_Api_Firebase_AuthService',
             'ps_checkout.api.firebase.auth.factory' => 'getPsCheckout_Api_Firebase_Auth_FactoryService',
@@ -264,6 +266,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'ps_checkout.updater.paypal.account' => 'getPsCheckout_Updater_Paypal_AccountService',
             'ps_checkout.validator.front_controller' => 'getPsCheckout_Validator_FrontControllerService',
             'ps_checkout.validator.merchant' => 'getPsCheckout_Validator_MerchantService',
+>>>>>>> origin/main
             'ps_facebook' => 'getPsFacebookService',
             'ps_facebook.cache' => 'getPsFacebook_CacheService',
             'ps_facebook.context' => 'getPsFacebook_ContextService',
@@ -639,12 +642,18 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $c = ${($_ = isset($this->services['annotation_reader']) ? $this->services['annotation_reader'] : ($this->services['annotation_reader'] = new \Doctrine\Common\Annotations\AnnotationReader())) && false ?: '_'};
         $d = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => '/var/www/html/modules/productcomments/src/Entity']);
         $d->addExcludePaths([0 => '/var/www/html/modules/productcomments/src/Entity/index.php']);
+<<<<<<< HEAD
+
+        $b->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => '/var/www/html/src/PrestaShopBundle/Entity']), 'PrestaShop');
+        $b->addDriver($d, 'PrestaShop\\Module\\ProductComment\\Entity');
+=======
         $e = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => '/var/www/html/modules/ps_checkout/src/Entity']);
         $e->addExcludePaths([0 => '/var/www/html/modules/ps_checkout/src/Entity/index.php']);
 
         $b->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($c, [0 => '/var/www/html/src/PrestaShopBundle/Entity']), 'PrestaShop');
         $b->addDriver($d, 'PrestaShop\\Module\\ProductComment\\Entity');
         $b->addDriver($e, 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
+>>>>>>> origin/main
 
         $a->setEntityNamespaces(['PrestaShopBundle\\Entity' => 'PrestaShop']);
         $a->setMetadataCacheImpl(${($_ = isset($this->services['doctrine.orm.cache.provider.cache.doctrine.orm.default.metadata']) ? $this->services['doctrine.orm.cache.provider.cache.doctrine.orm.default.metadata'] : $this->getDoctrine_Orm_Cache_Provider_Cache_Doctrine_Orm_Default_MetadataService()) && false ?: '_'});
@@ -662,7 +671,10 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
         $a->setRepositoryFactory(new \Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory(new \Symfony\Component\DependencyInjection\ServiceLocator([])));
         $a->addCustomStringFunction('regexp', 'DoctrineExtensions\\Query\\Mysql\\Regexp');
         $a->addEntityNamespace('Moduleproductcomments', 'PrestaShop\\Module\\ProductComment\\Entity');
+<<<<<<< HEAD
+=======
         $a->addEntityNamespace('ModulepsCheckout', 'PrestaShop\\Module\\PrestashopCheckout\\Entity');
+>>>>>>> origin/main
 
         $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create(${($_ = isset($this->services['doctrine.dbal.default_connection']) ? $this->services['doctrine.dbal.default_connection'] : $this->getDoctrine_Dbal_DefaultConnectionService()) && false ?: '_'}, $a);
 
@@ -1004,6 +1016,8 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
+<<<<<<< HEAD
+=======
      * Gets the public 'ps_checkout.adapter.language' shared service.
      *
      * @return \PrestaShop\Module\PrestashopCheckout\Adapter\LanguageAdapter
@@ -1584,6 +1598,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
     }
 
     /**
+>>>>>>> origin/main
      * Gets the private 'PrestaShop\Module\PrestashopFacebook\API\EventSubscriber\AccountSuspendedSubscriber' shared service.
      *
      * @return \PrestaShop\Module\PrestashopFacebook\API\EventSubscriber\AccountSuspendedSubscriber
@@ -2756,6 +2771,17 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'mailer_host' => '127.0.0.1',
             'mailer_user' => NULL,
             'mailer_password' => NULL,
+<<<<<<< HEAD
+            'secret' => 'jOQSPdxuwaHizyZWE2L2SnBipyXGRVNPMZj92sPXFqzuuVvVpp1mJOrER2a3q514',
+            'ps_caching' => 'CacheMemcache',
+            'ps_cache_enable' => false,
+            'ps_creation_date' => '2021-10-31',
+            'locale' => 'pl-PL',
+            'use_debug_toolbar' => true,
+            'cookie_key' => 'FaIeUpIHhKr7RKNKdPIseBXcPPTk0Uj2pz6pRLH7PwzK9fs2MrvsCTNQEH2DHpkR',
+            'cookie_iv' => 'hbJEKZ99ck3IvqVJ5fszhEqILwHxcG5D',
+            'new_cookie_key' => 'def00000fdf7dd31b4a8612974759a038ed39b8f66a66ef6cce36622341bbe4e4c547f3c3db8b66a3071b23613b2814e082afcc5edb1d2fbe68d8a7d6699473197d8df43',
+=======
             'secret' => 'WyEGPr6zKduC8SxERf9CUzkwcIp8d933Iei60GYoxBTW9iOiqwKbcRmadzxaJMD4',
             'ps_caching' => 'CacheMemcache',
             'ps_cache_enable' => false,
@@ -2765,6 +2791,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
             'cookie_key' => 'JIe8jsm1YukXr5Jasb4t8LxLkNxJTHWnJERHcQ5y7T365JAVCkS1TbW59CKgbQ4D',
             'cookie_iv' => 'RwnJG33swgrwchQK6TIhB5ohk91xCgJq',
             'new_cookie_key' => 'def00000107c410365587976a3d94151ae760a864d4ca8b0c18d8582456dbd332d721cee18ccaedaa09ea2fb91022ffb0a2fd58b6e691673a907ff8c1e2cd320c579fe72',
+>>>>>>> origin/main
             'cache.driver' => 'array',
             'kernel.bundles' => [
 
@@ -2798,6 +2825,48 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 19 => 'ps_customtext',
                 20 => 'ps_dataprivacy',
                 21 => 'ps_emailsubscription',
+<<<<<<< HEAD
+                22 => 'ps_facetedsearch',
+                23 => 'ps_faviconnotificationbo',
+                24 => 'ps_featuredproducts',
+                25 => 'ps_imageslider',
+                26 => 'ps_languageselector',
+                27 => 'ps_linklist',
+                28 => 'ps_mainmenu',
+                29 => 'ps_searchbar',
+                30 => 'ps_sharebuttons',
+                31 => 'ps_shoppingcart',
+                32 => 'ps_socialfollow',
+                33 => 'ps_themecusto',
+                34 => 'ps_wirepayment',
+                35 => 'statsbestcategories',
+                36 => 'statsbestcustomers',
+                37 => 'statsbestproducts',
+                38 => 'statsbestsuppliers',
+                39 => 'statsbestvouchers',
+                40 => 'statscarrier',
+                41 => 'statscatalog',
+                42 => 'statscheckup',
+                43 => 'statsdata',
+                44 => 'statsforecast',
+                45 => 'statsnewsletter',
+                46 => 'statspersonalinfos',
+                47 => 'statsproduct',
+                48 => 'statsregistrations',
+                49 => 'statssales',
+                50 => 'statssearch',
+                51 => 'statsstock',
+                52 => 'welcome',
+                53 => 'gamification',
+                54 => 'psgdpr',
+                55 => 'ps_mbo',
+                56 => 'ps_buybuttonlite',
+                57 => 'ps_metrics',
+                58 => 'ps_facebook',
+                59 => 'blockreassurance',
+                60 => 'ps_cashondelivery',
+                61 => 'ps_googleanalytics',
+=======
                 22 => 'ps_faviconnotificationbo',
                 23 => 'ps_featuredproducts',
                 24 => 'ps_imageslider',
@@ -2838,6 +2907,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 59 => 'blockreassurance',
                 60 => 'ps_facetedsearch',
                 61 => 'ps_cashondelivery',
+>>>>>>> origin/main
             ],
             'ps_cache_dir' => '/var/www/html/var/cache/dev/',
             'mail_themes_uri' => '/mails/themes',
